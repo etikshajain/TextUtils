@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import PropTypes from 'prop-types'
 
 export default function TextForm(props) {
 
@@ -84,12 +83,4 @@ export default function TextForm(props) {
         </div>
         </>
     )
-}
-
-TextForm.propTypes={
-    heading: PropTypes.string
-}
-
-TextForm.defaultProps={
-    heading: "Enter below"
 }
